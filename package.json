@@ -1,0 +1,25 @@
+{
+  "name": "spiral-matrix",
+  "version": "0.1.0",
+  "description": "Generate spiral matrices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HyunSeob/spiral-matrix.git"
+  },
+  "keywords": [
+    "matrix",
+    "spiral",
+    "spiral-matrix",
+    "algorithm"
+  ],
+  "author": "HyunSeob <sytte1017@gmail.com> (http://hyunseob.github.io)",
+  "license": "GFDL-1.2",
+  "bugs": {
+    "url": "https://github.com/HyunSeob/spiral-matrix/issues"
+  },
+  "homepage": "https://github.com/HyunSeob/spiral-matrix#readme"
+}
