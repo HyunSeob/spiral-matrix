@@ -50,4 +50,4 @@ class SpiralMatrix {
   }
 }
 
-exports = module.exports = SprialMatrix;
+exports = module.exports = SpiralMatrix;
