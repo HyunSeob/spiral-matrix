@@ -1,4 +1,4 @@
-# spiral-matrix
+# spiral-matrix [![Build Status](https://travis-ci.org/HyunSeob/spiral-matrix.svg?branch=master)](https://travis-ci.org/HyunSeob/spiral-matrix)
 Generate a spiral matrix.
 
 ## Installation
