@@ -12,7 +12,7 @@ function range(m, n) {
   for (i = m; i < n + 1; i++) {
     arr.push(i);
   }
-  console.log(arr);
+  
   return arr;
 }
 
