@@ -36,6 +36,7 @@ function spiral(rows, cols, start) {
 
 class SpiralMatrix {
   constructor(rows, cols, start) {
+    start = start || 0;
     this._matrix = spiral(rows, cols, start);
   }
 
