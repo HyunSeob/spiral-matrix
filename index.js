@@ -12,7 +12,7 @@ function range(m, n) {
   for (i = m; i < n + 1; i++) {
     arr.push(i);
   }
-
+  console.log(arr);
   return arr;
 }
 
@@ -28,10 +28,21 @@ function transpose(matrix) {
   }) : matrix;
 }
 
+function deepConcat(matrix1, matrix2) {
+  return [ matrix1[0].concat(matrix2[0]) ];
+}
+
 function spiral(rows, cols, start) {
-  return rows ? [range(start, start + cols  - 1)].concat(
-    transpose(spiral(cols, rows - 1, start + cols)).map(reverse)
-  ) : [[]];
+  if (!rows || !cols) return [[]];
+
+  const curr = [ range(start, start + cols - 1) ];
+  const inner = transpose(spiral(cols, rows - 1, start + cols));
+
+  if (inner[0].length === curr[0].length) {
+    return curr.concat(inner.map(reverse));
+  } else {
+    return deepConcat(curr, inner);
+  }
 }
 
 class SpiralMatrix {
