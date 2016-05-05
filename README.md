@@ -1,4 +1,7 @@
-# spiral-matrix [![Build Status](https://travis-ci.org/HyunSeob/spiral-matrix.svg?branch=master)](https://travis-ci.org/HyunSeob/spiral-matrix)
+# spiral-matrix 
+
+[![Build Status](https://travis-ci.org/HyunSeob/spiral-matrix.svg?branch=master)](https://travis-ci.org/HyunSeob/spiral-matrix) [![npm](https://img.shields.io/npm/v/spiral-matrix.svg)](https://npmjs.org/package/spiral-matrix) [![Downloads](https://img.shields.io/npm/dm/spiral-matrix.svg)](https://npmjs.org/package/spiral-matrix) [![Dependencies](https://img.shields.io/david/hyunseob/spiral-matrix.svg)](https://david-dm.org/hyunseob/spiral-matrix) [![LICENSE](https://img.shields.io/npm/l/spiral-matrix.svg)](LICENSE)
+
 Generate a spiral matrix.
 
 ## Installation
