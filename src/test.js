@@ -1,8 +1,8 @@
 'use strict';
 
 // Module dependencies.
-const assert       = require('assert');
-const SpiralMatrix = require('./index');
+const assert       = require('core-assert');
+const SpiralMatrix = require('..');
 
 const empty = new SpiralMatrix();
 assert.deepStrictEqual(empty.get(), [[]]);
